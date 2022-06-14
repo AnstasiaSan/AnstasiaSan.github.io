@@ -164,6 +164,7 @@
   display: flex;
   justify-content: center;
   z-index: -1;
+  height: 100vh;
 }
 
 .slider-dots {
@@ -196,6 +197,7 @@
 .header-slider__img {
   max-width: 100%;
   object-fit: cover;
+  height: 100vh;
 }
 
 .header-slider .header-slider__img {
@@ -473,10 +475,6 @@
   display: flex;
   flex-direction: column;
 }
-
-/* .vertical-slider__columns-slides:last-child {
-  margin-right: 0;
-} */
 
 .vertical-slider__image {
   margin-bottom: 25px;
@@ -939,7 +937,8 @@
     font-size: 50px;
   }
 
-  .main-content__text-section {
+  .main-content__text-section 
+  {
     margin-right: 130px;
   }
 
@@ -948,8 +947,19 @@
     max-width: 80%;
   }
 
-  .team-content__text-section {
+  .team-content__text-section 
+  {
     margin: 80px 70px 50px;
+  }
+
+  .header-slider 
+  {
+    height: auto;
+  }
+
+  .header-slider__img
+  {
+    height: auto;
   }
 
 }
